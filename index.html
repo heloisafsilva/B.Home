@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.Home | Casas Personalizadas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Aviso -->
+    <div class="warning-notice">
+        <p>Empresa fictícia. Trabalho de educação financeira.</p>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="B.Home Logo">
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre a B. Home</a></li>
+                    <li><a href="#services" class="nav-link">Serviços</a></li>
+                    <li><a href="#portfolio" class="nav-link">Projetos</a></li>
+                    <li><a href="#testimonials" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="brand-animation-container">
+                <div id="brandText">Building Home</div>
+            </div>
+            <h1 class="fade-in">Construindo Sonhos, Criando Lares</h1>
+            <p class="fade-in">Casas personalizadas que refletem sua personalidade e estilo de vida</p>
+            <div class="cta-buttons fade-in">
+                <a href="#portfolio" class="btn btn-primary">Nossos Projetos</a>
+                <a href="#contact" class="btn btn-secondary">Fale Conosco</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre a B. Home</h2>
+            <div class="about-content">
+                <p>A B.Home nasceu em uma tarde comum, entre conversas, risadas e café quente. Quatro amigas — arquitetas, designers e apaixonadas por inovação — se reuniram para imaginar um tipo de moradia que fosse mais do que funcional: que tivesse alma, identidade e propósito.</p>
+                <p>Movidas pelo desejo de transformar espaços em experiências, essas quatro mulheres decidiram criar uma empresa que quebrasse o padrão do "mais do mesmo" e abraçasse a originalidade como essência. Assim nasceu a B.Home, uma construtora especializada em casas temáticas personalizadas, feita para quem acredita que a casa é a extensão da própria história.</p>
+                <p>Hoje, a B.Home une criatividade, técnica e muito cuidado em cada projeto. Do primeiro esboço à entrega das chaves, nossa equipe mergulha no universo de cada cliente para construir lares que surpreendem — em conceito, estética e significado.</p>
+                <p class="highlight">Porque para nós, morar vai muito além de habitar:<br>é viver em um lugar onde cada parede tem algo a dizer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <p class="section-subtitle">Soluções completas para sua casa dos sonhos</p>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Projeto Arquitetônico</h3>
+                    <p>Criamos projetos exclusivos que atendem às suas necessidades e preferências estéticas.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Construção</h3>
+                    <p>Executamos sua obra com os mais altos padrões de qualidade e segurança.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Acabamento</h3>
+                    <p>Detalhes que fazem a diferença, com materiais premium e acabamento impecável.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3>Design de Interiores</h3>
+                    <p>Ambientes harmoniosos e funcionais que refletem seu estilo de vida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Nossos Projetos</h2>
+            <p class="section-subtitle">Conheça algumas de nossas obras concluídas</p>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="modern">Moderno</button>
+                <button class="filter-btn" data-filter="contemporary">Contemporâneo</button>
+                <button class="filter-btn" data-filter="minimalist">Minimalista</button>
+            </div>
+            
+            <!-- Tour de Vídeo -->
+            <div class="video-tour-container">
+                <h3>Tour Virtual</h3>
+                <video width="100%" autoplay muted loop playsinline>
+                    <source src="tour.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos HTML5.
+                </video>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Portfolio items will be dynamically generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Before/After Section -->
+    <section class="before-after">
+        <div class="container">
+            <h2 class="section-title">Antes e Depois</h2>
+            <p class="section-subtitle">Veja a transformação dos nossos projetos</p>
+            
+            <div class="before-after-slider">
+                <div class="img-comp-container">
+                    <div class="img-comp-img">
+                        <img src="https://via.placeholder.com/800x500/f0f0f0/333333?text=Antes" width="800" height="500">
+                    </div>
+                    <div class="img-comp-img img-comp-overlay">
+                        <img src="https://via.placeholder.com/800x500/e0e0e0/333333?text=Depois" width="800" height="500">
+                    </div>
+                    <div class="img-comp-slider"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Depoimentos</h2>
+            <p class="section-subtitle">O que nossos clientes dizem sobre nós</p>
+            
+            <div class="testimonial-carousel">
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"A B.Home transformou nosso sonho em realidade. Desde o projeto até a entrega das chaves, tudo foi perfeito. Recomendo a todos que desejam uma casa personalizada com qualidade."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Ana e Paulo Silva</h4>
+                            <p>São Paulo, SP</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"Profissionais extremamente competentes e atenciosos. Nossa casa ficou exatamente como imaginávamos, com cada detalhe cuidadosamente planejado e executado."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Roberto Mendes</h4>
+                            <p>Rio de Janeiro, RJ</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-text">
+                            <p>"O processo de personalização foi incrível! Conseguimos adaptar cada ambiente às nossas necessidades e o resultado final superou todas as expectativas."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Carla e Marcelo Oliveira</h4>
+                            <p>Belo Horizonte, MG</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots"></div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Estamos prontos para realizar seu projeto</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Endereço</h4>
+                            <p>Av. Paulista, 1000, São Paulo - SP</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Telefone</h4>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>contato@bhome.com.br</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-houzz"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Seu Telefone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <select id="subject" name="subject">
+                                <option value="" disabled selected>Assunto</option>
+                                <option value="projeto">Novo Projeto</option>
+                                <option value="orcamento">Orçamento</option>
+                                <option value="duvida">Dúvidas</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Sua Mensagem" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="B.Home Logo">
+                    <p>Construindo sonhos, criando lares.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#home">Início</a></li>
+                            <li><a href="#services">Serviços</a></li>
+                            <li><a href="#portfolio">Projetos</a></li>
+                            <li><a href="#testimonials">Depoimentos</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="#services">Projeto Arquitetônico</a></li>
+                            <li><a href="#services">Construção</a></li>
+                            <li><a href="#services">Acabamento</a></li>
+                            <li><a href="#services">Design de Interiores</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Termos de Uso</a></li>
+                            <li><a href="#">Política de Privacidade</a></li>
+                            <li><a href="#">Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 B.Home - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
